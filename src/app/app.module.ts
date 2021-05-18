@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { OrdersComponent } from './orders/orders.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MoviesComponent } from './products/products.component';
+import { MoviesComponent } from './movies/movies.component';
 
 @NgModule({
   declarations: [
