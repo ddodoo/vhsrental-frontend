@@ -8,13 +8,15 @@ import { OrdersComponent } from './orders/orders.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MoviesComponent } from './movies/movies.component';
+import { EditDeleteComponent } from './edit-delete/edit-delete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OrdersComponent,
     MainNavComponent,
-    MoviesComponent
+    MoviesComponent,
+    EditDeleteComponent
   ],
   imports: [
     AngularMaterialModule,

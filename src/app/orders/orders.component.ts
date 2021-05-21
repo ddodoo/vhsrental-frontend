@@ -25,6 +25,6 @@ const ELEMENT_DATA: CustomerData[] = [
 
 export class OrdersComponent{
 
-  displayedColumns: string[] = [ 'date','name','approval'];
+  displayedColumns: string[] = ['date','name','approval'];
   dataSource = ELEMENT_DATA;
 }
