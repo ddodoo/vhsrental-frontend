@@ -24,6 +24,7 @@ const ELEMENT_DATA: CustomerData[] = [
 })
 
 export class OrdersComponent{
+  labelPosition: 'before' | 'after' = 'before';
 
   displayedColumns: string[] = ['date','name','approval'];
   dataSource = ELEMENT_DATA;

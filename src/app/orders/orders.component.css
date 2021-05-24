@@ -2,6 +2,9 @@ table {
     width: 100%;
   }
 
-mat-checkbox{
-  vertical-align: middle;
+.checkbox{
+  /* display: flex; */
+  align-items: center;
+  position: relative;
+  right: -50px;
 }
