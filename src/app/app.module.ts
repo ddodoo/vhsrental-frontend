@@ -8,7 +8,7 @@ import { OrdersComponent } from './orders/orders.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MoviesComponent } from './movies/movies.component';
-import { EditDeleteComponent } from './edit-delete/edit-delete.component';
+import { EditComponent } from './edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { EditDeleteComponent } from './edit-delete/edit-delete.component';
     OrdersComponent,
     MainNavComponent,
     MoviesComponent,
-    EditDeleteComponent
+    EditComponent
   ],
   imports: [
     AngularMaterialModule,

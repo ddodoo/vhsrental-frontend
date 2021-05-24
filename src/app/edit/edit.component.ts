@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 
 
 export interface TableElement {
@@ -16,14 +16,13 @@ const ELEMENT_DATA: TableElement[] = [
  
 ];
 
-
 @Component({
-  selector: 'app-edit-delete',
-  templateUrl: './edit-delete.component.html',
-  styleUrls: ['./edit-delete.component.css']
+  selector: 'app-edit',
+  templateUrl: './edit.component.html',
+  styleUrls: ['./edit.component.css']
 })
 
-export class EditDeleteComponent{
+export class EditComponent{
 
   displayedColumns: string[] = ['image','title','icon'];
   dataSource = ELEMENT_DATA;
