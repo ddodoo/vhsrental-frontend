@@ -3,8 +3,9 @@ table {
   }
 
 .checkbox{
-  /* display: flex; */
+  display: flex;
   align-items: center;
   position: relative;
   right: -50px;
+  /* top: 0px; */
 }
